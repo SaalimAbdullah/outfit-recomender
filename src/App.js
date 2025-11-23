@@ -35,12 +35,7 @@ export default function App() {
 
     return (
     <>
-      {/* Full-screen Galaxy background */}
-      <div style={{ position: "fixed", top:0, left:0, width:"100%", height:"100%", zIndex:-1 }}>
-        <Galaxy density={0.3} glowIntensity={0.5} saturation={0} />
-      </div>
-
-      {/* Main content on top */}
+     
       <div className="app-wrap">
         <div className="card">
           <Header />
