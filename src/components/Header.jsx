@@ -14,7 +14,7 @@ export default function Header() {
                     Outfit-Recommender
                 </GlitchText>
            
-            <p className="muted">Based on: CSP + Backtracking + Heuristics</p>
+            <p className="muted">Based on: CSP + Beam Search + Fuzzy Logic</p>
         </header>
     );
 }
